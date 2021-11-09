@@ -70,7 +70,7 @@ public class EarthQuakeAdapter extends ArrayAdapter<EarthQuake> {
         TextView timeView = listItemView.findViewById(R.id.time);
         // Format time string (i.e "4:30PM")
         String formattedTime = formatTime(dateObject);
-        timeView.setText(formattedTime);
+          timeView.setText(formattedTime);
         return listItemView;
     }
 
